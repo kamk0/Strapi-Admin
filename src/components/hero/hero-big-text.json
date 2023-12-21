@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_hero_hero_big_texts",
+  "info": {
+    "displayName": "Hero - Big text",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "topText": {
+      "type": "text",
+      "maxLength": 100
+    },
+    "title": {
+      "type": "text",
+      "required": true,
+      "maxLength": 100
+    },
+    "description": {
+      "type": "text",
+      "maxLength": 100
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.link"
+    }
+  }
+}

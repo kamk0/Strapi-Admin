@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_global_links",
+  "info": {
+    "displayName": "link",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string",
+      "regex": "^(http|https|ftp)://[^\\s/$.?#].[^\\s]*$|^/$",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "maxLength": 100
+    }
+  }
+}

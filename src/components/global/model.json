@@ -1,0 +1,60 @@
+{
+  "collectionName": "components_global_models",
+  "info": {
+    "displayName": "model",
+    "icon": "user",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "bust": {
+      "type": "integer"
+    },
+    "height": {
+      "type": "integer"
+    },
+    "waist": {
+      "type": "integer"
+    },
+    "hips": {
+      "type": "integer"
+    },
+    "shoes": {
+      "type": "integer"
+    },
+    "hair": {
+      "type": "enumeration",
+      "enum": [
+        "brown",
+        "dark brown",
+        "light brown",
+        "blonde",
+        "dark blonde",
+        "red"
+      ]
+    },
+    "eyesColor": {
+      "type": "enumeration",
+      "enum": [
+        "green",
+        "gray",
+        "blue",
+        "brown"
+      ]
+    },
+    "photo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

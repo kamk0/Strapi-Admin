@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pagesses",
+  "info": {
+    "singularName": "pagess",
+    "pluralName": "pagesses",
+    "displayName": "Pagess",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "customField",
+      "customField": "plugin::slug.slug"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "hero.hero-big-text",
+        "hero.hero-two-image",
+        "module.info-text-module",
+        "module.photo"
+      ],
+      "required": true
+    }
+  }
+}
